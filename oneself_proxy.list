@@ -1,6 +1,12 @@
+# NAME: oneself_proxy
+# AUTHOR: Johnshall
+# REPO: https://github.com/Johnshall/Shadowrocket-ADBlock-Rules-Forever/blob/release/sr_cnip_ad.conf
+# UPDATED: 2023-03-14
+
 DOMAIN-SUFFIX,ampproject.org,PROXY # Google AMP issue#237
 
 # 手工定义的 Proxy 列表
+DOMAIN-SUFFIX,jable.tv,Proxy
 DOMAIN-SUFFIX,theinitium.com,Proxy
 DOMAIN-SUFFIX,youtu.be,Proxy
 DOMAIN-SUFFIX,netflix.com,Proxy
