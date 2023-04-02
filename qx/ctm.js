@@ -15,13 +15,13 @@ Tg频道:https://t.me/gjwj6
 
 [mitm]
 
-hostname = api.685x.top
+hostname = api.238tt.top
 
 
 [rewrite_local]
 
 
-^http[s]?:\/\/api.685x.top\/api\/(user\/v1\/getUserInfo|dvideo\/v1\/getIndexInfo|dvideo\/v1\/getDvideoDeail|asdv\/v1\/getRotationList|v1\/getSysConfigInfo).*$ url script-response-body https://raw.githubusercontent.com/gjwj666/qx/main/ctm.js
+^http[s]?:\/\/api.238tt.top\/api\/(user\/v1\/getUserInfo|dvideo\/v1\/getIndexInfo|dvideo\/v1\/getDvideoDeail|asdv\/v1\/getRotationList|v1\/getSysConfigInfo).*$ url script-response-body https://raw.githubusercontent.com/gjwj666/qx/main/ctm.js
 
 
 *******************************/
