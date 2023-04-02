@@ -10,13 +10,13 @@ log-level: info
 ipv6: true
 external-controller: 127.0.0.1:9090
 
-subscribe-url: https://tg802.cc/api/v1/client/subscribe?token=f74305eed43ac6b03b631e5ec8a527bf
+subscribe-url: //
 #替换上面文字用于Stash获取机场流量信息并在主页显示
 
 proxy-providers:
   All:
     type: http
-    url: "https://tg802.cc/api/v1/client/subscribe?token=f74305eed43ac6b03b631e5ec8a527bf"
+    url: "//"
     # 以下方法任选其一️有Clash订阅优先使用方法二❗️
     # 1.可以使用任意类型的链接仅替换上面文字，多个链接使用英文符号的竖杠|隔开一起写上即可
     # 2.Sub-Store与Clash类型订阅链接替换掉整个引号""内的链接
