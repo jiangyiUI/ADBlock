@@ -1,0 +1,13 @@
+// ==UserScript==
+// @ScriptName        TubeMax去广告
+// @Author            @可莉
+// @ForHelp           过滤TubeMax广告
+// @WechatID          https://gitlab.com/lodepuly/vpn_tool/-/tree/main/Tool/Loon/Plugin
+// @Version           V1.0
+// ==/UserScript==
+
+
+hostname=*.i18n-pglstatp.com
+
+# 重定向
+^http:\/\/·*\.i18n-pglstatp\.com\/obj\/ad-pattern-sg url reject
