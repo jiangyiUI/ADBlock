@@ -1,2 +1,2 @@
-HOST-SUFFIX,txtshuku.org,myself
-HOST-SUFFIX,anfuns.*,myself
+HOST-SUFFIX,txtshuku.org,direct
+HOST-SUFFIX,anfuns.*,proxy
