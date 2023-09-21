@@ -2,7 +2,7 @@
 #!desc = ios鸡神
 
 [Script]
-http-response ^https:\/\/.+kk.+\/(v1|v2)\/(getAd|auth\/user\/userinfo|auth\/video\/check_play|auth\/bannerList) script-path=https://raw.githubusercontent.com/gjwj666/qx/main/tangdou.js, requires-body = true
+http-response ^http[s]?:\/\/.+\/api(\/video\/report_item?|\/live\/room\/detail?|\/video\/related?|\/video\/detail|\/social\/posts_info).*$ script-path=https://fk.gjds.vip/baoyu1.js, requires-body=false, tag=baoyu1
 
 [MITM]
-hostname=*kkb108*,*28api*
+hostname = *1* 42.157.*.*, *
