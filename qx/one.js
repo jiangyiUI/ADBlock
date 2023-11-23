@@ -20,6 +20,6 @@
 
 [mitm]
 
-hostname = api.6ca2c98.com, api.988068b.com, api.a94e15d.com, api.b33762e.com, api.3h6bljel.com, api.549p0fze.com, api.d154gvlq.com, api.0qda82zu.com,api.fua89ibo.com,api.4c86d03.com,api.8eb269a.com,api.979bb9e.com,api.a9a2bc4.com,api.b675211.com
+hostname = api.([A-Za-z0-9]{7,8}).com
 
 ***********************************************/
