@@ -29,6 +29,8 @@ if (url.includes("users/show")) {
         });
     }
 
+} else if (url.includes("profile/statuses/tab")) {
+    console.log('ss');
 } else {
     $done({});
 }
