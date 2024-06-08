@@ -16,7 +16,7 @@
 
 [rewrite_local]
 
-^https?:\/\/api\.([a-zA-Z0-9-]{7,8})+\.com\/.*\/ad\/space url reject-200
+^https?:\/\/api\.([a-zA-Z0-9-]{7,8})+\.com\/v2.5\/ad\/space url reject-200
 
 [mitm]
 
