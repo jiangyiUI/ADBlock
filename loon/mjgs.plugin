@@ -1,0 +1,19 @@
+#!name = 面具公社
+#!desc = 瑟瑟
+#!openUrl = https://apps.apple.com/app/id670910957
+#!author = suiyuran[https://github.com/suiyuran], androidcn[https://github.com/androidcn]
+#!tag = suiyuran
+#!system = 
+#!system_version = 
+#!loon_version = 3.2.1(745)
+#!date = 2024-01-19 22:25:07
+
+[Rewrite]
+# 开屏广告
+^https:\/\/(mfjk|gnjk|buyaoda).+\.com\/request_game\/v3\/game\/list reject-dict
+[Script]
+http-request ^https:\/\/(mfjk|gnjk|buyaoda).+\.com\/(playerinfo|api\/home\/popup|api\/get_advert) script-path = https://raw.githubusercontent.com/Yu9191/Rewrite/main/lsp/mjgsad.js
+http-response ^https:\/\/(mfjk|gnjk|buyaoda).+\.com\/(playerinfo|api\/home\/popup|api\/get_advert) script-path = https://raw.githubusercontent.com/Yu9191/Rewrite/main/lsp/mjgsad.js, requires-body = true
+
+[MitM]
+hostname = gnjk.*.com, mfjk.*.com, buyaoda.*.com
