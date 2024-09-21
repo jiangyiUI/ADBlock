@@ -9,4 +9,4 @@
 ^https?:\/\/api\.([a-zA-Z0-9-]{6,8})+\.com\/.*\/ad\/space reject-200
 
 [MitM]
-hostname = api.[A-Za-z0-9][A-Za-z0-9][A-Za-z0-9][A-Za-z0-9][A-Za-z0-9][A-Za-z0-9][A-Za-z0-9][A-Za-z0-9].com,api.[A-Za-z0-9][A-Za-z0-9][A-Za-z0-9][A-Za-z0-9][A-Za-z0-9][A-Za-z0-9][A-Za-z0-9].com,api.[A-Za-z0-9][A-Za-z0-9][A-Za-z0-9][A-Za-z0-9][A-Za-z0-9][A-Za-z0-9].com
+hostname = api.*.com
