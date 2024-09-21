@@ -1,8 +1,15 @@
-#!name = 糖豆Pro
-#!desc = ios鸡神
-
 [Script]
-http-response ^http[s]?:\/\/.+\/api(\/video\/report_item?|\/live\/room\/detail?|\/video\/related?|\/video\/detail|\/social\/posts_info).*$ script-path=https://fk.gjds.vip/baoyu1.js, requires-body=false, tag=baoyu1
+http-response ^https?:\/\/biz\.cyapi\.cn\/api\/v\d\/user_detail script-path=https://github.com/ddgksf2013/Scripts/raw/master/caiyun_json.js, requires-body=true, tag=彩云
+http-response ^https?:\/\/biz\.cyapi\.cn\/v\d\/user script-path=https://github.com/ddgksf2013/Scripts/raw/master/caiyun_json.js, requires-body=true, tag=彩云
+http-response ^https?:\/\/wrapper\.cyapi\.cn\/v\d\/activity script-path=https://github.com/ddgksf2013/Scripts/raw/master/caiyun_json.js, requires-body=true, tag=彩云
+http-response ^https?:\/\/api\.caiyunapp\.com\/v\d\/activity script-path=https://github.com/ddgksf2013/Scripts/raw/master/caiyun_json.js, requires-body=true, tag=彩云
+http-response ^https?:\/\/starplucker\.cyapi\.cn\/v\d/operation/homefeatures script-path=https://github.com/ddgksf2013/Scripts/raw/master/caiyun_json.js, requires-body=true, tag=彩云
+http-response ^https?:\/\/starplucker\.cyapi\.cn\/v\d/notification/message_center script-path=https://github.com/ddgksf2013/Scripts/raw/master/caiyun_json.js, requires-body=true, tag=彩云
+http-response ^https?:\/\/starplucker\.cyapi\.cn\/v\d/config/cypage script-path=https://github.com/ddgksf2013/Scripts/raw/master/caiyun_json.js, requires-body=true, tag=彩云
+http-response ^https?:\/\/starplucker\.cyapi\.cn\/v\d/operation/feeds script-path=https://github.com/ddgksf2013/Scripts/raw/master/caiyun_json.js, requires-body=true, tag=彩云
+http-response ^https?:\/\/starplucker\.cyapi\.cn\/v\d/operation/banners script-path=https://github.com/ddgksf2013/Scripts/raw/master/caiyun_json.js, requires-body=true, tag=彩云
+http-response ^https?:\/\/starplucker\.cyapi\.cn\/v\d/operation/features script-path=https://github.com/ddgksf2013/Scripts/raw/master/caiyun_json.js, requires-body=true, tag=彩云
+http-response ^https?:\/\/starplucker\.cyapi\.cn\/v\d/campaigns script-path=https://github.com/ddgksf2013/Scripts/raw/master/caiyun_json.js, requires-body=true, tag=彩云
 
 [MITM]
-hostname = *1* 42.157.*.*, *
+hostname = wrapper.cyapi.cn, api.caiyunapp.com, starplucker.cyapi.cn, ad.cyapi.cn, biz.cyapi.cn
