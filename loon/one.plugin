@@ -1,0 +1,12 @@
+#!name = ONE一个就好了
+#!desc = 去广告。
+#!system = 
+#!system_version = 
+#!loon_version = 3.2.1(745)
+#!date = 2024-01-19 22:25:07
+
+[Rewrite]
+^https?:\/\/api\.([a-zA-Z0-9-]{6,8})+\.com\/.*\/ad\/space reject-dict
+
+[MitM]
+hostname = api.[A-Za-z0-9][A-Za-z0-9][A-Za-z0-9][A-Za-z0-9][A-Za-z0-9][A-Za-z0-9][A-Za-z0-9][A-Za-z0-9].com,api.[A-Za-z0-9][A-Za-z0-9][A-Za-z0-9][A-Za-z0-9][A-Za-z0-9][A-Za-z0-9][A-Za-z0-9].com,api.[A-Za-z0-9][A-Za-z0-9][A-Za-z0-9][A-Za-z0-9][A-Za-z0-9][A-Za-z0-9].com
