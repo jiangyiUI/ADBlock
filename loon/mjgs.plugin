@@ -12,8 +12,8 @@
 # 开屏广告
 ^https:\/\/(mfjk|gnjk|buyaoda).+\.com\/request_game\/v3\/game\/list reject-dict
 [Script]
-http-request ^https?:\/\/(mfjk|gnjk|buyaoda).+\.com\/api\/(comic|video|short_movie_info|novel|gallery|vip|index) script-path = https://raw.githubusercontent.com/Yu9191/Rewrite/main/lsp/mjgsad.js
-http-response ^https:\/\/(mfjk|gnjk|buyaoda).+\.com\/(playerinfo|api\/home\/popup|api\/get_advert) script-path = https://raw.githubusercontent.com/Yu9191/Rewrite/main/lsp/mjgsad.js, requires-body = true
+http-request ^https?:\/\/(mfjk|gnjk|buyaoda).+\.com\/api\/(comic|video|short_movie_info|novel|gallery|vip|index) script-path = https://raw.githubusercontent.com/Yu9191/Rewrite/main/lsp/mjgsad.js, tag = 拦截
+http-response ^https:\/\/(mfjk|gnjk|buyaoda).+\.com\/(playerinfo|api\/home\/popup|api\/get_advert) script-path = https://raw.githubusercontent.com/Yu9191/Rewrite/main/lsp/mjgsad.js, requires-body = true, tag = 拦截
 
 [MitM]
 hostname = gnjk.*.com, mfjk.*.com, buyaoda.*.com
