@@ -9,7 +9,7 @@
 
 [Rewrite]
 ^https?:\/\/api\.([a-zA-Z0-9-]{6,8})+\.com\/.*\/ad\/space reject-200
-^https?:\/\/jmtp\.*\.com\/storage\/commercial\/*\/*.jpg reject-200
+^https?:\/\/jmtp.+\.com\/storage\/commercial\/*\/* reject-200
 [Script]
 http-response ^https:\/\/api\.\w+\.com\/v2\.4\/(bootstrap|article\/detail) script-path = https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/One.js, requires-body = true, tag = 解锁
 [MitM]
