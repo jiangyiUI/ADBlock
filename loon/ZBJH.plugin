@@ -1,0 +1,17 @@
+#!name = 播聚合
+#!desc = 去广告，解锁会员
+#!openUrl = https://lanzouw.com/s/33th 邀请码:T2775
+#!author = 伟人
+#!tag = NSFW,共享会员
+#!system = 
+#!system_version = 
+#!loon_version = 3.2.1(745)
+#!homepage = https://lanzouw.com/s/33th 邀请码:T2775
+#!icon = https://raw.githubusercontent.com/Orz-3/mini/master/Color/Pornhub.png
+#!date = 2024-09-24 22:25:07
+
+[Script]
+http-response ^http:\/\/lb\.h12345\.net\/zb\/.*\.json script-path = https://raw.githubusercontent.com/Yu9191/Rewrite/refs/heads/main/lsp/zhibojuhe.js, requires-body = true, tag = 广告
+
+[MitM]
+hostname = lb.h12345.net
